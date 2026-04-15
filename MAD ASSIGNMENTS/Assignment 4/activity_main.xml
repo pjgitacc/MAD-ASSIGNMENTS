@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAmazon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amazon Website" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera" />
+
+        <Button
+            android:id="@+id/btnDial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dial Phone" />
+
+        <Button
+            android:id="@+id/btnMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Maps" />
+
+</LinearLayout>

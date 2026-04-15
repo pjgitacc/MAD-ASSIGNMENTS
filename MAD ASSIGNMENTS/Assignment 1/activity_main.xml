@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#5B5455"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="30dp"
+           />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARTH M JADHAV"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course: B.TECH (CSE)"
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College: DYPCET"
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: pj28032006@gmail.com"
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: 9029034063"
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"/>
+
+</LinearLayout>
